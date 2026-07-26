@@ -1,8 +1,23 @@
 aid: diy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/diy.png
 name: DIY
-description: 'DIY is a company surfaced as a portfolio company of kleiner-perkins, slow-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'DIY.org is a safe, ad-free creative platform where kids turn ideas into
+  real games, apps, and websites — guided by AI tools like Vibe Coding and KidsGPT and
+  reviewed by human moderators. Serving over 500,000 young creators, it pairs game-building
+  templates, AI image and art tools, badge-based learning, and 75+ standards-aligned
+  courses with parent and classroom dashboards, SSO, and safety controls. Originally
+  a maker community for kids, DIY is backed by Kleiner Perkins and Slow Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/diy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- EdTech
+- Kids
+- Coding
+- Games
+- Artificial Intelligence
+- Education
+- Creativity
+- Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://diy.org
+- type: SignUp
+  url: https://www.diy.org/register
+- type: Login
+  url: https://www.diy.org/login
+- type: Pricing
+  url: https://www.diy.org/pricing
+- type: Blog
+  url: https://www.diy.org/blogs
+- type: Support
+  url: https://www.diy.org/faq
+- type: TermsOfService
+  url: https://www.diy.org/tos
+- type: PrivacyPolicy
+  url: https://www.diy.org/privacy
+- type: DomainSecurity
+  url: security/diy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
